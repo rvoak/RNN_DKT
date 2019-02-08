@@ -5,8 +5,7 @@ This is my implementation of the paper: Piech, C., Bassen, J., Huang, J., Gangul
 Here, we build an RNN model to predict student learning. We use RNN (specifically Long Short Term Memory (LSTM) model) to predict student responses at an instance  t+1, given all the previous instances.
 
 Here is a description of various files:
-
-1. *rnn_edu_v2.ipynb*: Keras code file with functions for creating a sequence prediction model (behavior), a performance prediction model (DKT), and loading and pre-processing the ASSISTments data file.
+1. *rnn_edu.py*: Python code to build and train the RNN model.
 2. *skill_builder_data_corrected.csv*: The dataset file from ASSISTments, described here (Links to an external site.)Links to an external site.
 3. *correct.tsv*:	A one row per-student file containing the first 100 responses of students in ASSISTments only including students who had 100 or more responses in the dataset.
 4. *skill.tsv*:	A one row per-student file containing the skill ID (id created by the preprocessing) of the first 100 responses of students in ASSISTments only including students who had 100 or more responses in the dataset.
